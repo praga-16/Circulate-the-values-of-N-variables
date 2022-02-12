@@ -17,6 +17,7 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
+~~~
 #Program to circulate N values.
 #Developed by: pragatheesvaran AB
 #RegisterNumber: 21003592
@@ -25,6 +26,7 @@ def circulate():
     n=int(input())
     num1=num1[n:]+num1[:n]
     print("After circulating the values are:",num1)
+~~~
 ## Output: 
 ![output](ex2.jpg)
 ## Result:
